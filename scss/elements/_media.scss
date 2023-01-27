@@ -5,8 +5,41 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 475px) {
   .container {
     width: 320px;
+  }
+}
+
+@media (max-width: 476px) {
+  .benefits__container {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  .benefits__double {
+    align-items: center;
+    flex-direction: column;
+  }
+  .benefits__single--image {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 475px) {
+  .pricing__boxes {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 475px) {
+  .contact .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
