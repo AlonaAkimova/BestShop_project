@@ -11,7 +11,32 @@
   }
 }
 
-@media (max-width: 476px) {
+@media (max-width: 475px)  {
+
+  .opening {
+
+    .opening__header {
+      font-size: 40px;
+    }
+    margin-top: 80px;
+  }
+
+  .btn--large {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 475px) {
+  .statistics__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 475px) {
+  .benefits {
+   padding-top: 10px;
+   padding-bottom: 20px;
+  }
   .benefits__container {
     width: 100%;
     align-items: center;
@@ -20,26 +45,96 @@
     margin: 0 auto;
   }
   .benefits__double {
+    width: 100%;
     align-items: center;
     flex-direction: column;
+  }
+  .benefits__single--solo {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .benefits__image {
+    width: 150px;
+  }
+  .benefits__single--phone {
+    padding-left: 0;
   }
   .benefits__single--image {
     width: 100%;
     margin: 0 auto;
   }
+  .benefits__text {
+    padding: 10px;
+    margin: 30px 0;
+    font-size: 15px;
+  }
+  .benefits__title {
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  .benefits__text::after {
+    display: none;
+  }
+  .benefits__single--notebook {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .benefits__single--phone {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 475px) {
+  .pricing h2 {
+    font-weight: 500;
+    padding-top: 10px;
+    margin-top: 0;
+  }
   .pricing__boxes {
     width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 20px 20px;
+  }
+  .pricing__items li {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+
+  }
+  .pricing__boxes .pricing__box--professional .pricing__details .pricing__price {
+    font-weight: 700;
+  }
+  .pricing__boxes .pricing__box--professional {
+    background: rgba(251, 59, 100, 0.1);
   }
 }
 
 @media (max-width: 475px) {
-  .contact .container {
-    display: flex;
-    align-items: center;
+  .contact {
+    width: 100%;
     flex-direction: column;
+    align-items: center;
+    padding: 50px 15px;
+  }
+  .contact_instruction {
+    margin: 5px 0 35px;
+  }
+  .contact__details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .details__item {
+    margin-bottom: 10px;
   }
 }

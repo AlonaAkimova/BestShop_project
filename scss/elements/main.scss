@@ -192,25 +192,25 @@ h2 {
 
 .statistics__single:nth-child(1) .statistics__img {
   top: 0;
-  left: 45%;
+  left: 22%;
 }
 
 .statistics__single:nth-child(2) .statistics__circle {
-  background-color: var(--color-primary);
+  background-color: $color-primary;
 }
 
 .statistics__single:nth-child(2) .statistics__img {
   top: 14px;
-  left: 47%;
+  left: 5%;
 }
 
 .statistics__single:nth-child(3) .statistics__circle {
-  background-color: var(--color-green);
+  background-color: $color-green;
 }
 
 .statistics__single:nth-child(3) .statistics__img {
   top: 6px;
-  left: 50%;
+  left: 10%;
 }
 
 .statistics__number {
