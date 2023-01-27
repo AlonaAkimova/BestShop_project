@@ -26,6 +26,8 @@
   }
 }
 
+
+
 @media (max-width: 475px) {
   .statistics__container {
     display: flex;
@@ -114,9 +116,6 @@
   }
   .pricing__boxes .pricing__box--professional .pricing__details .pricing__price {
     font-weight: 700;
-  }
-  .pricing__boxes .pricing__box--professional {
-    background: rgba(251, 59, 100, 0.1);
   }
 }
 
