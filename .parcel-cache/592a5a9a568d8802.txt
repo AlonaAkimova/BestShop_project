@@ -1,0 +1,30 @@
+29
+58C:\Users\alion\projects\CodersLab\BestShop_project\.config133190974874270746 1
+63C:\Users\alion\projects\CodersLab\BestShop_project\package.json133192619770871313 0
+60C:\Users\alion\projects\CodersLab\BestShop_project\README.md133190388315789025 0
+64C:\Users\alion\projects\CodersLab\BestShop_project\css\reset.css133183464242046802 0
+56C:\Users\alion\projects\CodersLab\BestShop_project\.idea133190975200983235 1
+57C:\Users\alion\projects\CodersLab\BestShop_project\assets133190974874021198 1
+54C:\Users\alion\projects\CodersLab\BestShop_project\css133190974874151639 1
+61C:\Users\alion\projects\CodersLab\BestShop_project\index.html133183464242051866 0
+67C:\Users\alion\projects\CodersLab\BestShop_project\.idea\.gitignore133190974453063931 0
+64C:\Users\alion\projects\CodersLab\BestShop_project\css\style.css133183464242051866 0
+72C:\Users\alion\projects\CodersLab\BestShop_project\assets\Background.png133183464241970088 0
+69C:\Users\alion\projects\CodersLab\BestShop_project\assets\Catalog.svg133183464241975576 0
+73C:\Users\alion\projects\CodersLab\BestShop_project\assets\Checkmark-1.svg133183464241980434 0
+71C:\Users\alion\projects\CodersLab\BestShop_project\assets\Checkmark.svg133183464241980434 0
+67C:\Users\alion\projects\CodersLab\BestShop_project\assets\Close.svg133183464241980434 0
+65C:\Users\alion\projects\CodersLab\BestShop_project\assets\Eye.svg133183464241990426 0
+77C:\Users\alion\projects\CodersLab\BestShop_project\.idea\BestShop_project.iml133190974451353516 0
+70C:\Users\alion\projects\CodersLab\BestShop_project\assets\Facebook.svg133183464242000748 0
+68C:\Users\alion\projects\CodersLab\BestShop_project\assets\iPhone.png133183464242040436 0
+69C:\Users\alion\projects\CodersLab\BestShop_project\assets\Macbook.png133183464242016606 0
+71C:\Users\alion\projects\CodersLab\BestShop_project\assets\Mail Icon.svg133183464242020074 0
+68C:\Users\alion\projects\CodersLab\BestShop_project\assets\Person.svg133183464242020074 0
+72C:\Users\alion\projects\CodersLab\BestShop_project\assets\Phone Icon.svg133183464242020074 0
+69C:\Users\alion\projects\CodersLab\BestShop_project\assets\Trumpet.png133183464242030618 0
+69C:\Users\alion\projects\CodersLab\BestShop_project\assets\Twitter.svg133183464242030618 0
+68C:\Users\alion\projects\CodersLab\BestShop_project\.idea\modules.xml133190974451573559 0
+64C:\Users\alion\projects\CodersLab\BestShop_project\.idea\vcs.xml133190974451793517 0
+70C:\Users\alion\projects\CodersLab\BestShop_project\.idea\workspace.xml133190975200972960 0
+72C:\Users\alion\projects\CodersLab\BestShop_project\.config\exercises.yml133183464241952407 0
