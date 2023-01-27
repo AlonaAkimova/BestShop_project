@@ -1,11 +1,13 @@
+$color-primary: #08A6E4;
+$color-primary-shadow: rgba(7, 172, 230, .16);
+$color-redish: #FB3B64;
+$color-green: #55DFB4;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-grey: #A5A5A5;
+$color-light-grey: #F7F7F7;
+
 :root {
-  --color-primary: #08A6E4;
-  --color-primary-shadow: rgba(7, 172, 230, .16);
-  --color-redish: #FB3B64;
-  --color-green: #55DFB4;
-  --color-black: #000000;
-  --color-white: #ffffff;
-  --color-grey: #A5A5A5;
   --color-light-grey: #F7F7F7;
   --button-radius: 35px;
   --font-raleway: "Raleway", sans-serif;
@@ -47,17 +49,17 @@ h2 {
   border: none;
 
   &--primary {
-    background-color: var(--color-primary);
+    background-color: $color-primary;
     border-radius: var(--button-radius);
     box-shadow: 3px 10px 14px var(--color-primary-shadow);
   }
 
   &--redish {
-    background-color: var(--color-redish);
+    background-color: $color-redish;
   }
 
   &--green {
-    background-color: var(--color-green);
+    background-color: $color-green;
   }
 
   &--large {
@@ -69,7 +71,7 @@ h2 {
     font-family: var(--font-raleway);
     font-size: 2rem;
     font-weight: 300;
-    color: var(--color-primary);
+    color: $color-primary;
   }
 /**
  * Header
@@ -100,7 +102,7 @@ h2 {
   }
 
    .nav__link {
-     color: var(--color-grey);
+     color: $color-grey;
      font-weight: 700;
      font-size: 0.6875rem;
      text-transform: uppercase;
@@ -109,8 +111,8 @@ h2 {
      letter-spacing: 0.1875rem;
 
      &:hover {
-       color: var(--color-black);
-       border-color: var(--color-primary);
+       color: $color-black;
+       border-color: $color-primary;
      }
    }
 }
@@ -185,7 +187,7 @@ h2 {
 
 
 .statistics__single:nth-child(1) .statistics__circle {
-  background-color: var(--color-redish);
+  background-color: $color-redish;
 }
 
 .statistics__single:nth-child(1) .statistics__img {
@@ -219,7 +221,7 @@ h2 {
 }
 
 .statistics__description {
-  color: var(--color-grey);
+  color: $color-grey;
   margin-top: 19px;
 }
 
@@ -228,14 +230,14 @@ h2 {
 
 .benefits {
   padding: 100px 0;
-  background-color: var(--color-light-grey);
+  background-color: $color-light-grey;
 
   &__container {
     padding: 0 100px;
   }
 
   &__single {
-    background-color: var(--color-white);
+    background-color: $color-white;
     border: 1px solid #E8E9ED;
     display: flex;
     justify-content: space-between;
@@ -258,7 +260,7 @@ h2 {
   content: "";
   width: 332px;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: $color-redish;
   display: block;
   margin-top: 50px;
 }
@@ -272,7 +274,7 @@ h2 {
 }
 
 .benefits__single--notebook {
-  --accent-color: var(--color-redish);
+  --accent-color: $color-redish;
 
   &.benefits__image {
     margin-right: 117px;
@@ -289,7 +291,7 @@ h2 {
     content: "";
     width: 180px;
     height: 180px;
-    background-color: var(--accent-color);
+    background-color: $color-redish;
     display: block;
     border-radius: 40px;
     position: absolute;
@@ -300,7 +302,7 @@ h2 {
 }
 
 .benefits__single--phone {
-  --accent-color: var(--color-primary);
+  --accent-color: $color-primary;
   flex-direction: row-reverse;
   padding: 0 20px 0 70px;
 
@@ -308,7 +310,7 @@ h2 {
     content: "";
     width: 320px;
     height: 320px;
-    background-color: var(--accent-color);
+    background-color: $color-redish;
     display: block;
     border-radius: 50%;
     position: absolute;
@@ -325,7 +327,7 @@ h2 {
 }
 
 .benefits__double {
-  --accent-color: var(--color-green);
+  --accent-color: $color-green;
   display: flex;
 
   &__double > div {
@@ -346,7 +348,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--accent-color);
+  background-color: $color-redish;
   border: none;
   margin-left: 60px;
 
@@ -378,7 +380,7 @@ h2 {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 1px solid var(--accent-color);
+      border: 1px solid $color-redish;
 
       .pricing__details {
         margin-top: 34px;
@@ -396,7 +398,7 @@ h2 {
           font-family: var(--font-open-sans);
           font-weight: 300;
           margin-top: 25px;
-          color: var(--accent-color);
+          color: $color-redish;
         }
       }
     }
@@ -436,12 +438,12 @@ h2 {
   position: relative;
   bottom: -25px;
   font-size: 0.8125rem;
-  background-color: var(--accent-color);
+  background-color: $color-redish;
 }
 
 /*** Basic Box ***/
 .pricing__box--basic {
-  --accent-color: var(--color-redish);
+  --accent-color: $color-redish;
 }
 
 .pricing__box--basic .pricing__price {
@@ -450,10 +452,10 @@ h2 {
 
 /*** Professional Box **/
 .pricing__box--professional {
-  --accent-color: var(--color-primary);
+  border: $color-primary;
   width: 400px;
   margin: 0 40px;
-  box-shadow: 5px 1px 27px var(--color-primary-shadow);
+  box-shadow: 5px 1px 27px $color-primary-shadow;
   .pricing__type {
     font-size: 1.3125rem;
   }
@@ -463,7 +465,7 @@ h2 {
 }
 /*** Premium Box ***/
 .pricing__box--premium {
-  --accent-color: var(--color-green);
+  border: 1px $color-green;
 }
 
 /**
@@ -489,10 +491,10 @@ h2 {
   &__details {
     display: flex;
     justify-content: flex-start;
-    color: var(--color-grey);
+    color: $color-grey;
     align-items: center;
     .details__item {
-      color: var(--color-grey);
+      color: $color-grey;
       font-weight: 500;
       text-decoration: none;
       &:first-of-type {
@@ -520,14 +522,14 @@ h2 {
   &__label {
     font-weight: bold;
     text-transform: uppercase;
-    color: var(--color-primary);
+    color: $color-primary;
     line-height: 0.9rem;
     letter-spacing: 3px;
     font-size: 0.6875rem;
   }
   &__input {
     border: none;
-    border-bottom: 1px solid var(--color-grey);
+    border-bottom: 1px solid $color-grey;
     background-color: transparent;
     line-height: 2.625rem;
   }
@@ -565,8 +567,8 @@ h2 {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: var(--color-white);
-  border: 1px solid var(--color-grey);
+  background-color: $color-white;
+  border: 1px solid $color-grey;
   border-radius: 4px;
   .form__checkbox input:checked ~ .checkbox {
     background-image: url(../../assets/Checkmark.svg);
@@ -577,7 +579,7 @@ h2 {
   .consent__text {
     margin: 0 10px;
     font-size: 0.75rem;
-    color: var(--color-grey);
+    color: $color-grey;
     line-height: 17px;
   }
 }
@@ -603,7 +605,7 @@ h2 {
   .footer__copy {
     font-size: 0.6875rem;
     line-height: 1.5rem;
-    color: var(--color-grey);
+    color: $color-grey;
     margin-top: 6px;
   }
 
