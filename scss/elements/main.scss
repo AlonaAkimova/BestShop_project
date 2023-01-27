@@ -360,7 +360,7 @@ padding: 22px 155px;
       z-index: 2;
     }
   }
-  &.benefits__image::before {
+  .benefits__image::before {
     content: "";
     width: 180px;
     height: 180px;
@@ -375,15 +375,15 @@ padding: 22px 155px;
 }
 
 .benefits__single--phone {
-  --accent-color: $color-primary;
+  --accent-color: $color-redish;
   flex-direction: row-reverse;
   padding: 0 20px 0 70px;
 
-  &.benefits__image::before {
+  .benefits__image::before {
     content: "";
-    width: 320px;
-    height: 320px;
-    background-color: $color-redish;
+    width: 300px;
+    height: 300px;
+    background-color: $color-primary;
     display: block;
     border-radius: 50%;
     position: absolute;

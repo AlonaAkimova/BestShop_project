@@ -39,6 +39,17 @@
    padding-top: 10px;
    padding-bottom: 20px;
   }
+  .benefits__single--notebook .benefits__image::before {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    right: 0;
+    top: -40px;
+  }
+  .benefits__single--phone .benefits__image::before {
+    width: 60px;
+    height: 60px;
+  }
   .benefits__container {
     width: 100%;
     align-items: center;
